@@ -29,7 +29,7 @@ my_src_files_arm := \
 			arm/filter_neon_intrinsics.c
 
 
-common_CFLAGS := -std=gnu89 #-fvisibility=hidden ## -fomit-frame-pointer
+common_CFLAGS := #-fvisibility=hidden ## -fomit-frame-pointer
 
 include $(CLEAR_VARS)
 LOCAL_CLANG := true

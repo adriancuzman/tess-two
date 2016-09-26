@@ -1,4 +1,5 @@
 LOCAL_PATH := $(call my-dir)
+LOCAL_SHORT_COMMANDS := true
 TESSERACT_PATH := $(LOCAL_PATH)/com_googlecode_tesseract_android/src
 LEPTONICA_PATH := $(LOCAL_PATH)/com_googlecode_leptonica_android/src
 LIBJPEG_PATH := $(LOCAL_PATH)/libjpeg
